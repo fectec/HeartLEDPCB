@@ -2834,6 +2834,12 @@
 		(uuid "1f21aba9-0013-4d62-8411-c322eb6e863d")
 	)
 	(junction
+		(at 100.33 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2602adb3-e96b-4b47-8202-b1270e03b92e")
+	)
+	(junction
 		(at 72.39 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3259,7 +3265,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 100.33 86.36)
+			(xy 100.33 81.28) (xy 100.33 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3396,6 +3402,16 @@
 			(type default)
 		)
 		(uuid "a5336b67-1951-411e-9488-89a7bbef4a18")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3361fed-5c69-4221-94c5-38ca8ee9e76f")
 	)
 	(wire
 		(pts
@@ -6808,7 +6824,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 83.82 180)
+		(at 96.52 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6817,7 +6833,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdc3efff-d0eb-470c-b0b6-6b998bdb62ee")
 		(property "Reference" "R7"
-			(at 90.17 83.82 90)
+			(at 96.52 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +6842,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 92.71 83.82 90)
+			(at 96.52 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6851,7 @@
 			)
 		)
 		(property "Footprint" "FOOTPRINTS:0402WGJ0332TCE"
-			(at 98.298 83.82 90)
+			(at 96.52 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
