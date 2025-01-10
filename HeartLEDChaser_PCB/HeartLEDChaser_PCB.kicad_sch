@@ -4545,7 +4545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33078ada-0cfd-47bf-97f4-cdcea1be7748")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 22.352 171.196 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 		(instances
 			(project ""
 				(path "/407f145c-340e-4b78-9c61-323751cc61f8"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6195,7 +6195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4d4b370-a198-4807-8156-e1b56f929f90")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 94.742 171.196 0)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 		(instances
 			(project ""
 				(path "/407f145c-340e-4b78-9c61-323751cc61f8"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
