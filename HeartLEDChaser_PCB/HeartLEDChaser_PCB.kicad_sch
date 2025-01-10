@@ -6495,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 16.51 149.86 0)
 			(effects
 				(font
