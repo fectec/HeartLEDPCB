@@ -2470,6 +2470,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/CD4017BM96.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:0402WGJ0332TCE"
 		(layer "F.Cu")
@@ -8467,6 +8478,17 @@
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
 			(offset
 				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/ICM7555IBAZ-T.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
