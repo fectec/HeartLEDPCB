@@ -4240,7 +4240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "20c6db59-08fe-4126-ba81-33e749113499")
 		(property "Reference" "D1"
@@ -4666,7 +4666,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "35427c26-0808-488b-9e23-c50f0ccfd657")
 		(property "Reference" "D10"
@@ -5394,7 +5394,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65de525d-e85b-48d1-9dce-85764ced31f2")
 		(property "Reference" "D3"
@@ -5829,7 +5829,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "89efcde3-e2a5-411d-a151-1f39efeb8ec8")
 		(property "Reference" "D8"
@@ -5899,7 +5899,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8eb1fcfc-bda4-4833-9269-7f75ec98519b")
 		(property "Reference" "D9"
@@ -6530,7 +6530,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b0a4cd71-3ec7-4ca0-9bbf-9eafb387c8a0")
 		(property "Reference" "D6"
@@ -6600,7 +6600,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b174b025-6d6c-449b-bdde-6e82277fa67a")
 		(property "Reference" "D7"
@@ -6749,7 +6749,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b81d0f7e-85e0-4aee-ab4a-62e71a870d74")
 		(property "Reference" "D4"
@@ -7043,7 +7043,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c3b41679-0a8f-4671-bc14-a97690c671c1")
 		(property "Reference" "D5"
@@ -7332,7 +7332,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef7e697c-91f9-4a96-8636-9c04a4890701")
 		(property "Reference" "D2"
@@ -7500,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FOOTPRINTS:SDFL1608Q4R7KTF"
+		(property "Footprint" "FOOTPRINTS:SMNR5040-470MT"
 			(at 45.72 157.48 0)
 			(effects
 				(font
