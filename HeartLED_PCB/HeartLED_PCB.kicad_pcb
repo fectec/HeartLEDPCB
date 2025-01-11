@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "PRODUCTION/")
 		)
 	)
 	(net 0 "")
@@ -215,10 +215,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4adb8a26-75fb-495f-8e64-645388dc5b0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0b2d6ef2-dc84-46fe-964b-b5f8f5e0e9ac")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 0.5)
@@ -329,6 +342,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
@@ -397,7 +421,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/65de525d-e85b-48d1-9dce-85764ced31f2")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -646,10 +670,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a0ada66-4ac1-4cdb-bb0e-6388719a1c8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b8368f24-1255-4c5e-8336-57055bad53c4")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 0.5)
@@ -760,6 +797,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
@@ -828,7 +876,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/8eb1fcfc-bda4-4833-9269-7f75ec98519b")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 1.08)
@@ -1082,7 +1130,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/89efcde3-e2a5-411d-a151-1f39efeb8ec8")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 1.08)
@@ -1336,7 +1384,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ef7e697c-91f9-4a96-8636-9c04a4890701")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -1590,7 +1638,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b81d0f7e-85e0-4aee-ab4a-62e71a870d74")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -1839,10 +1887,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf18da7-53cf-4e3c-85bc-05d2b35590aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f2f13b41-5349-4dda-a26c-50b4d8d450bf")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 0.5)
@@ -1945,6 +2006,17 @@
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0402_L1.0-W0.5-H0.4.wrl"
 			(offset
 				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2120,9 +2192,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C1523359"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "728c8cb9-a4fa-4a46-b824-6c1d76cf4007")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/915d3c6d-cebc-456a-b969-704ed007a40f")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.95 -5.065)
@@ -2422,6 +2507,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "a2543ae7-568b-4cef-a15b-5bcc7a15fcda")
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/CD4017BM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:0402WGJ0332TCE"
 		(layer "F.Cu")
@@ -2485,10 +2581,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9e3df6c-f725-4d8a-ab3e-ed41bb7a8ee7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/62b56722-c631-4667-9b7f-4a705f14e3fd")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 0.5)
@@ -2599,6 +2708,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:HX SS12F44G4"
 		(layer "F.Cu")
@@ -2662,12 +2782,12 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5149844"
+		(property "LCSC" "C5149844"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f1a29ac-420f-4f8c-b9cf-f7c94c17802e")
+			(uuid "0f806eaf-1a5d-4977-99ba-d6d7ecf2afd6")
 			(effects
 				(font
 					(size 1 1)
@@ -2677,7 +2797,7 @@
 		)
 		(path "/adf5eb2c-591b-4d3d-8a9b-b97963326a29")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.1 -2.75)
@@ -2837,6 +2957,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/HX SS12F44G4.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
@@ -2905,7 +3036,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b174b025-6d6c-449b-bdde-6e82277fa67a")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 1.08)
@@ -3154,10 +3285,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2bd57a-206a-4225-918a-a4b1804fabe8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bdc3efff-d0eb-470c-b0b6-6b998bdb62ee")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.94 -0.5)
@@ -3268,6 +3412,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
@@ -3336,7 +3491,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/35427c26-0808-488b-9e23-c50f0ccfd657")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 1.08)
@@ -3585,10 +3740,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0e82a27-2265-48a6-9bd2-7dfeee6ce7dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2d7979ff-7cae-4cff-add9-ecbae7490ed7")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.94 0.5)
@@ -3691,6 +3859,17 @@
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0402_L1.0-W0.5-H0.4.wrl"
 			(offset
 				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4145,7 +4324,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a6246693-1b06-4ff1-a677-943eeb3e6835")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4255,7 +4434,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c3b41679-0a8f-4671-bc14-a97690c671c1")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -4504,10 +4683,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43cd17d1-3d7e-411b-8c11-0a239383e551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f83b56d-1813-4476-8db0-c2207c1fea28")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 -0.5)
@@ -4618,6 +4810,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:0402WGJ0332TCE"
 		(layer "F.Cu")
@@ -4681,10 +4884,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed1e36e4-a371-46fd-b8f4-93350177a4b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/11c0504d-df42-4070-8ace-57bb02831a9f")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 0.5)
@@ -4795,6 +5011,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
@@ -4863,7 +5090,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b0a4cd71-3ec7-4ca0-9bbf-9eafb387c8a0")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -5321,10 +5548,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a336a7-eca5-4237-a5aa-de4fa04d4736")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0e9aac55-7e7f-452a-9381-91db6ee55d70")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.94 0.5)
@@ -5435,6 +5675,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
@@ -5503,7 +5754,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/20c6db59-08fe-4126-ba81-33e749113499")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -5752,10 +6003,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C25936"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88b869e7-4b29-42b4-8409-5da83d0a099e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b720652c-9b31-4700-85f9-c51583adef5b")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.94 -0.5)
@@ -5866,6 +6130,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0332TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:SDFL1608Q4R7KTF"
 		(layer "B.Cu")
@@ -5934,10 +6209,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1034"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1be15523-d974-465f-859b-b6e718e2a6aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/f811b816-c71f-4ff6-855d-10848733a87b")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.27 0.65)
@@ -6091,6 +6380,17 @@
 				(xyz 0 0 180)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/SDFL1608Q4R7KTF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:TAJA476K006RNJ"
 		(layer "B.Cu")
@@ -6159,10 +6459,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C7190"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04687604-9f81-4fca-9f60-f36fd4ba8ee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/33078ada-0cfd-47bf-97f4-cdcea1be7748")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.32 0.8)
@@ -6244,6 +6558,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/TAJA476K006RNJ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:CL10A475KP8NNNC"
 		(layer "B.Cu")
@@ -6312,10 +6637,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1705"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d4d310a4-5959-43b7-aa87-0d6a3b7e6c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/47f9d635-d51e-407e-a754-ff193b853d66")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.4)
@@ -6471,6 +6810,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/CL10A475KP8NNNC.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:0402WGJ0103TCE"
 		(layer "B.Cu")
@@ -6539,10 +6889,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25531"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a32754a-a48f-47d2-9e3f-c289812da333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cef7df21-f397-47d0-bd01-6f1d82496bac")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.94 0.5)
@@ -6654,6 +7018,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0402WGJ0103TCE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Battery:BatteryHolder_Keystone_1060_1x2032"
 		(layer "B.Cu")
@@ -6727,9 +7102,23 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5370859"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2db98e6f-1564-4bc5-8b51-1538fd306995")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/84ff1051-e131-4a31-91f6-11b7b3e29e2b")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 14.55 3.85)
@@ -7382,12 +7771,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C259884"
+		(property "LCSC" "C259884"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fb5e9bd5-d6a1-40be-9a6e-1a2800b38b9d")
+			(uuid "4741d6bf-141f-422b-bb06-33b32fce6b5e")
 			(effects
 				(font
 					(size 1 1)
@@ -7398,7 +7787,7 @@
 		)
 		(path "/84212ce2-6fd2-4e48-897f-e75aa6788aab")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.38 0.89)
@@ -7520,15 +7909,26 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/HT7750A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
-	(footprint "FOOTPRINTS:TAJA476K006RNJ"
+	(footprint "FOOTPRINTS:TAJA226M010RNJ"
 		(layer "B.Cu")
 		(uuid "d4a771a2-bd08-4bad-92d6-6f782abf9524")
 		(at 117.76 85.48 -90)
 		(property "Reference" "C3"
-			(at 2.84 -0.03 180)
+			(at 2.94 0 0)
 			(layer "B.SilkS")
-			(uuid "309595c1-353a-4a1e-a749-50f76e048aca")
+			(uuid "6d5e60be-9017-43d9-bd18-1489c3f32467")
 			(effects
 				(font
 					(size 1 1)
@@ -7540,7 +7940,7 @@
 		(property "Value" "22uF(Tantalum)"
 			(at 0 -4 90)
 			(layer "B.Fab")
-			(uuid "1cdc636c-2f96-4bb9-b321-1c151f551b83")
+			(uuid "b2cab886-401f-4953-a516-bd897bb77fdf")
 			(effects
 				(font
 					(size 1 1)
@@ -7549,11 +7949,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "FOOTPRINTS:TAJA476K006RNJ"
+		(property "Footprint" "FOOTPRINTS:TAJA226M010RNJ"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "68c27f51-1d44-48ab-bdb2-dc2edcb3baa4")
+			(uuid "2a41e904-ee3c-42fd-bb64-e7286d6c103c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7966,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "895c7581-a547-4540-850f-64215e5e1aba")
+			(uuid "8c63b4ac-3f65-4025-b8fe-9a91d30bc0a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7979,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e82deb6c-93af-4fcb-ac91-713f5b4d4354")
+			(uuid "eb8229f9-0f7e-4bed-b049-a2c1224d3261")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,10 +7988,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C7183"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "00f386db-91d0-49a0-8337-5b6b278a2797")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/a4d4b370-a198-4807-8156-e1b56f929f90")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.32 0.8)
@@ -7601,7 +8015,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "89635812-6ff0-4f41-86b1-63f62b16537f")
+			(uuid "f57953b9-efc4-435b-af65-81b6eb6f40d6")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -7611,7 +8025,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "80f60a36-5a7b-4723-8059-19bac249daee")
+			(uuid "255eedec-609d-45ba-8030-0f7a2350338c")
 		)
 		(fp_line
 			(start 1.57 -0.8)
@@ -7621,7 +8035,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c35003e9-ad82-41c5-acb9-5387473d3a65")
+			(uuid "a7595f9e-f363-4c96-854b-51faa84b6029")
 		)
 		(fp_circle
 			(center -1.6 -0.8)
@@ -7632,12 +8046,12 @@
 			)
 			(fill none)
 			(layer "B.Fab")
-			(uuid "34252431-8cb2-4232-a1bc-0f7708da12fd")
+			(uuid "3368bb3c-068c-42b5-830f-b30b3465704d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "B.Fab")
-			(uuid "9b196eb1-1e7f-4535-92c6-7efefc554d18")
+			(uuid "9f187b34-e0fd-4fc3-8016-8109a3691748")
 			(effects
 				(font
 					(size 1 1)
@@ -7652,7 +8066,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 34 "+5V")
 			(pintype "passive")
-			(uuid "449531da-a376-43ba-bbbe-f84e40844e62")
+			(uuid "555c1660-7018-4265-9da7-becd4659f740")
 		)
 		(pad "2" smd rect
 			(at 1.2 0 270)
@@ -7660,11 +8074,22 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "df6d442a-eac8-4812-9ab2-f86707e4427b")
+			(uuid "10f5a76c-eaff-4851-81a9-5de012530f54")
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CASE-A_L3.2-W1.6-H1.6.wrl"
 			(offset
 				(xyz -0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/TAJA226M010RNJ.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7924,9 +8349,23 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3304410"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ecd62d52-3245-4e5b-966f-1d8c49364a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/57eef756-4281-401d-8897-84ffef08ee70")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.3716 -2.4892)
@@ -8463,6 +8902,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "ab64f33c-f956-4199-b94a-05d8b73a2350")
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/ICM7555CBAZ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:0603WAJ0104T5E"
 		(layer "B.Cu")
@@ -8531,10 +8981,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C15458"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb7a8f2c-9460-4b97-b757-5658e7e0bd23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3741a06d-a8b4-4cd0-b66c-e85f1438e7bb")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 0.66)
@@ -8646,6 +9110,17 @@
 				(xyz 0 0 270)
 			)
 		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/0603WAJ0104T5E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "FOOTPRINTS:1N5817W"
 		(layer "B.Cu")
@@ -8714,10 +9189,24 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C727113"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1406491-ca75-481f-b2bb-7401695397b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/e863e51b-ded3-4b72-a0f0-21a70b970c78")
 		(sheetname "Root")
-		(sheetfile "HeartLEDChaser_PCB.kicad_sch")
+		(sheetfile "HeartLED_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.41 -0.87)
@@ -8903,6 +9392,17 @@
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOD-123_L2.8-W1.8-LS3.7-RD.wrl"
 			(offset
 				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/COMPONENTS/3D/1N5817.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9912,7 +10412,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f9e64817-820b-48bd-865a-84d83d539d64")
 	)
-	(gr_text "github.com/\nfectec/\nHeartLEDChaser"
+	(gr_text "github.com/\nfectec/\nHeartLED"
 		(at 112.45 90.89 0)
 		(layer "B.SilkS")
 		(uuid "5eb3705e-2dd6-4788-918f-39306c566391")
@@ -9924,7 +10424,7 @@
 			)
 			(justify left mirror)
 		)
-		(render_cache "github.com/\nfectec/\nHeartLEDChaser" 0
+		(render_cache "github.com/\nfectec/\nHeartLED" 0
 			(polygon
 				(pts
 					(xy 112.17215 89.265904) (xy 112.216044 89.272589) (xy 112.254365 89.286474) (xy 112.291337 89.311158)
@@ -10360,136 +10860,6 @@
 					(xy 107.189831 91.948593) (xy 107.215387 91.918267) (xy 107.239002 91.897156) (xy 107.272565 91.874725)
 					(xy 107.310622 91.856692) (xy 107.353173 91.843057) (xy 107.400218 91.833821) (xy 107.441089 91.829598)
 					(xy 107.484836 91.828191) (xy 107.655806 91.828191)
-				)
-			)
-			(polygon
-				(pts
-					(xy 106.900216 92.193773) (xy 106.899071 92.238775) (xy 106.895636 92.280113) (xy 106.888492 92.324883)
-					(xy 106.878051 92.364377) (xy 106.861702 92.403786) (xy 106.853321 92.418477) (xy 106.826674 92.451218)
-					(xy 106.793824 92.474604) (xy 106.754769 92.488636) (xy 106.715508 92.49324) (xy 106.709511 92.493313)
-					(xy 106.669348 92.48812) (xy 106.632098 92.47254) (xy 106.608883 92.456383) (xy 106.579491 92.425988)
-					(xy 106.555616 92.389901) (xy 106.536446 92.350538) (xy 106.532484 92.340905) (xy 106.445143 92.376272)
-					(xy 106.461386 92.412413) (xy 106.485823 92.455071) (xy 106.513434 92.49141) (xy 106.544221 92.521429)
-					(xy 106.578183 92.545128) (xy 106.61532 92.562508) (xy 106.655633 92.573567) (xy 106.69912 92.578307)
-					(xy 106.710488 92.578505) (xy 106.754041 92.576081) (xy 106.794332 92.568811) (xy 106.838374 92.55369)
-					(xy 106.877716 92.531589) (xy 106.912361 92.502509) (xy 106.932847 92.479244) (xy 106.95525 92.446051)
-					(xy 106.973857 92.408632) (xy 106.988666 92.366985) (xy 106.999678 92.321112) (xy 107.005753 92.281371)
-					(xy 107.009398 92.238925) (xy 107.010614 92.193773) (xy 107.009463 92.147989) (xy 107.006013 92.105159)
-					(xy 107.000262 92.065283) (xy 106.987321 92.011006) (xy 106.969205 91.963376) (xy 106.945913 91.922392)
-					(xy 106.917445 91.888054) (xy 106.883801 91.860362) (xy 106.84498 91.839316) (xy 106.800984 91.824916)
-					(xy 106.751812 91.817162) (xy 106.716154 91.815685) (xy 106.671376 91.818632) (xy 106.630242 91.82747)
-					(xy 106.592754 91.842201) (xy 106.558911 91.862824) (xy 106.528713 91.88934) (xy 106.502161 91.921748)
-					(xy 106.479254 91.960048) (xy 106.459993 92.004241) (xy 106.552414 92.04078) (xy 106.567347 92.003132)
-					(xy 106.588931 91.967846) (xy 106.615917 91.938979) (xy 106.650172 91.916118) (xy 106.688164 91.903808)
-					(xy 106.715568 91.901464) (xy 106.75952 91.905884) (xy 106.79739 91.919147) (xy 106.832724 91.944635)
-					(xy 106.854884 91.972196) (xy 106.874717 92.01257) (xy 106.887422 92.056111) (xy 106.894859 92.099534)
-					(xy 106.898622 92.140023) (xy 106.900172 92.184424)
-				)
-			)
-			(polygon
-				(pts
-					(xy 106.298988 91.753159) (xy 106.199532 91.753159) (xy 106.199532 91.960863) (xy 106.200753 92.002824)
-					(xy 106.20301 92.043857) (xy 106.204417 92.06579) (xy 106.202854 92.06579) (xy 106.178678 92.027542)
-					(xy 106.149529 91.997207) (xy 106.115407 91.974785) (xy 106.076311 91.960277) (xy 106.032242 91.953683)
-					(xy 106.016448 91.953243) (xy 105.971385 91.956553) (xy 105.93233 91.966481) (xy 105.891962 91.9882)
-					(xy 105.860981 92.02026) (xy 105.839388 92.062663) (xy 105.828874 92.104032) (xy 105.824367 92.152019)
-					(xy 105.82418 92.16505) (xy 105.82418 92.566) (xy 105.923635 92.566) (xy 105.923635 92.178923)
-					(xy 105.925923 92.13937) (xy 105.934931 92.099422) (xy 105.952554 92.066376) (xy 105.984269 92.041265)
-					(xy 106.025506 92.030539) (xy 106.044389 92.029642) (xy 106.084624 92.034565) (xy 106.123373 92.051353)
-					(xy 106.15359 92.076952) (xy 106.15635 92.080054) (xy 106.179328 92.115072) (xy 106.192732 92.152593)
-					(xy 106.199242 92.195801) (xy 106.199923 92.21683) (xy 106.199923 92.566) (xy 106.298988 92.566)
-				)
-			)
-			(polygon
-				(pts
-					(xy 105.44818 91.955829) (xy 105.491472 91.963587) (xy 105.537584 91.980557) (xy 105.574805 92.005608)
-					(xy 105.603133 92.03874) (xy 105.622569 92.079953) (xy 105.631716 92.118742) (xy 105.528353 92.128316)
-					(xy 105.527988 92.125155) (xy 105.518157 92.086345) (xy 105.494354 92.052894) (xy 105.480058 92.043377)
-					(xy 105.441087 92.031356) (xy 105.40076 92.02847) (xy 105.378089 92.029631) (xy 105.340042 92.038918)
-					(xy 105.307948 92.061491) (xy 105.292595 92.086149) (xy 105.281677 92.126668) (xy 105.278834 92.169545)
-					(xy 105.278834 92.203348) (xy 105.408576 92.205497) (xy 105.453168 92.207679) (xy 105.493373 92.2132)
-					(xy 105.540158 92.225754) (xy 105.579145 92.244243) (xy 105.616914 92.275701) (xy 105.6425 92.316432)
-					(xy 105.654196 92.355694) (xy 105.658094 92.400891) (xy 105.657708 92.416079) (xy 105.651912 92.457934)
-					(xy 105.637315 92.497914) (xy 105.614131 92.531024) (xy 105.599343 92.544702) (xy 105.563469 92.565104)
-					(xy 105.524005 92.575537) (xy 105.483217 92.578505) (xy 105.440856 92.575662) (xy 105.399372 92.565966)
-					(xy 105.363244 92.549391) (xy 105.357213 92.545606) (xy 105.325842 92.519577) (xy 105.299968 92.48826)
-					(xy 105.278834 92.453843) (xy 105.275512 92.453843) (xy 105.273945 92.473102) (xy 105.265862 92.51255)
-					(xy 105.24718 92.548414) (xy 105.242228 92.553792) (xy 105.206941 92.573539) (xy 105.167264 92.578505)
-					(xy 105.131111 92.576573) (xy 105.090865 92.569712) (xy 105.090865 92.508163) (xy 105.1233 92.512071)
-					(xy 105.134729 92.511267) (xy 105.167264 92.48921) (xy 105.17591 92.46078) (xy 105.178792 92.421212)
-					(xy 105.178792 92.321757) (xy 105.278834 92.321757) (xy 105.279188 92.333047) (xy 105.286006 92.371889)
-					(xy 105.3015 92.409684) (xy 105.307401 92.420067) (xy 105.332529 92.452226) (xy 105.364612 92.477877)
-					(xy 105.377609 92.485194) (xy 105.417145 92.499086) (xy 105.458011 92.503278) (xy 105.49501 92.498005)
-					(xy 105.52972 92.475727) (xy 105.548039 92.443585) (xy 105.554145 92.40265) (xy 105.550517 92.366292)
-					(xy 105.535191 92.329768) (xy 105.517309 92.309864) (xy 105.48224 92.289126) (xy 105.463225 92.28324)
-					(xy 105.424148 92.276904) (xy 105.383175 92.274667) (xy 105.278834 92.272517) (xy 105.278834 92.321757)
-					(xy 105.178792 92.321757) (xy 105.178792 92.158407) (xy 105.181438 92.117054) (xy 105.190942 92.075288)
-					(xy 105.207359 92.039384) (xy 105.234089 92.006) (xy 105.244903 91.996571) (xy 105.278459 91.975963)
-					(xy 105.318878 91.96195) (xy 105.359875 91.955098) (xy 105.399197 91.953243)
-				)
-			)
-			(polygon
-				(pts
-					(xy 104.47381 92.394639) (xy 104.477815 92.435391) (xy 104.491897 92.47566) (xy 104.516119 92.510026)
-					(xy 104.537899 92.529656) (xy 104.572923 92.551027) (xy 104.614103 92.566293) (xy 104.655184 92.574641)
-					(xy 104.694147 92.578075) (xy 104.714926 92.578505) (xy 104.755515 92.577275) (xy 104.798041 92.572732)
-					(xy 104.840277 92.563442) (xy 104.879676 92.547764) (xy 104.887264 92.543529) (xy 104.920157 92.517597)
-					(xy 104.945073 92.483766) (xy 104.960679 92.446563) (xy 104.964445 92.432741) (xy 104.877103 92.415937)
-					(xy 104.862114 92.453855) (xy 104.834484 92.482188) (xy 104.832358 92.483543) (xy 104.792955 92.498102)
-					(xy 104.753407 92.50351) (xy 104.714926 92.504841) (xy 104.672202 92.50248) (xy 104.630491 92.493412)
-					(xy 104.595008 92.474238) (xy 104.571836 92.440991) (xy 104.566622 92.408121) (xy 104.577155 92.368767)
-					(xy 104.593586 92.350284) (xy 104.627683 92.330256) (xy 104.665889 92.317005) (xy 104.676043 92.314332)
-					(xy 104.718764 92.303356) (xy 104.763204 92.291193) (xy 104.80564 92.278391) (xy 104.845306 92.264131)
-					(xy 104.860104 92.257277) (xy 104.894494 92.234025) (xy 104.919895 92.205692) (xy 104.936208 92.168327)
-					(xy 104.940802 92.128121) (xy 104.936196 92.084787) (xy 104.922378 92.047111) (xy 104.899349 92.015091)
-					(xy 104.882575 91.999747) (xy 104.845695 91.977267) (xy 104.805984 91.963461) (xy 104.765887 91.95615)
-					(xy 104.720798 91.953288) (xy 104.713949 91.953243) (xy 104.673504 91.954954) (xy 104.631861 91.9611)
-					(xy 104.590851 91.973356) (xy 104.559588 91.989) (xy 104.527695 92.014394) (xy 104.504313 92.046122)
-					(xy 104.48944 92.084186) (xy 104.487487 92.092559) (xy 104.576587 92.103306) (xy 104.591933 92.066692)
-					(xy 104.615666 92.046251) (xy 104.65361 92.032366) (xy 104.694291 92.027379) (xy 104.713949 92.026907)
-					(xy 104.759701 92.029915) (xy 104.801115 92.041031) (xy 104.835429 92.067358) (xy 104.848444 92.107224)
-					(xy 104.848576 92.112489) (xy 104.838815 92.150793) (xy 104.82591 92.166223) (xy 104.791412 92.186233)
-					(xy 104.752442 92.198463) (xy 104.686985 92.215853) (xy 104.645378 92.226966) (xy 104.606073 92.23941)
-					(xy 104.568823 92.254535) (xy 104.55822 92.260012) (xy 104.525093 92.282792) (xy 104.497896 92.312486)
-					(xy 104.496475 92.314527) (xy 104.479476 92.35087) (xy 104.473832 92.391686)
-				)
-			)
-			(polygon
-				(pts
-					(xy 104.091412 91.956059) (xy 104.133436 91.964509) (xy 104.171187 91.978591) (xy 104.209831 92.002139)
-					(xy 104.242658 92.033355) (xy 104.258687 92.054408) (xy 104.278722 92.090019) (xy 104.293949 92.130466)
-					(xy 104.304368 92.175748) (xy 104.309377 92.217178) (xy 104.311046 92.261966) (xy 104.309956 92.299015)
-					(xy 104.305528 92.342226) (xy 104.297695 92.381992) (xy 104.283798 92.425166) (xy 104.264997 92.46338)
-					(xy 104.24129 92.496635) (xy 104.227684 92.511266) (xy 104.197308 92.53621) (xy 104.162714 92.555399)
-					(xy 104.123902 92.568831) (xy 104.080873 92.576506) (xy 104.041793 92.578505) (xy 104.009113 92.577255)
-					(xy 103.968276 92.571698) (xy 103.926071 92.560133) (xy 103.887822 92.542943) (xy 103.876051 92.535964)
-					(xy 103.845003 92.511729) (xy 103.818011 92.479) (xy 103.798918 92.440166) (xy 103.885673 92.415937)
-					(xy 103.888596 92.423478) (xy 103.910684 92.456596) (xy 103.942533 92.480612) (xy 103.961842 92.489825)
-					(xy 104.001273 92.50093) (xy 104.041793 92.504255) (xy 104.055906 92.503759) (xy 104.094824 92.496314)
-					(xy 104.132048 92.477565) (xy 104.162937 92.447786) (xy 104.184284 92.412606) (xy 104.197394 92.375601)
-					(xy 104.204983 92.333197) (xy 104.207096 92.291666) (xy 103.782896 92.291666) (xy 103.782896 92.278184)
-					(xy 103.783937 92.238638) (xy 103.786041 92.215853) (xy 103.885087 92.215853) (xy 104.20612 92.215853)
-					(xy 104.204287 92.189174) (xy 104.197286 92.150318) (xy 104.183426 92.11224) (xy 104.160593 92.076928)
-					(xy 104.152263 92.067884) (xy 104.120603 92.044161) (xy 104.082951 92.030324) (xy 104.043942 92.026321)
-					(xy 104.026515 92.027061) (xy 103.98732 92.03539) (xy 103.948536 92.057601) (xy 103.918751 92.093138)
-					(xy 103.900804 92.132933) (xy 103.890946 92.171431) (xy 103.885087 92.215853) (xy 103.786041 92.215853)
-					(xy 103.788166 92.192837) (xy 103.795649 92.151073) (xy 103.808923 92.106283) (xy 103.826881 92.067304)
-					(xy 103.849525 92.034136) (xy 103.881591 92.002616) (xy 103.91966 91.978838) (xy 103.957068 91.964619)
-					(xy 103.998886 91.956087) (xy 104.045115 91.953243)
-				)
-			)
-			(polygon
-				(pts
-					(xy 103.137704 92.054262) (xy 103.179234 92.048366) (xy 103.219194 92.044917) (xy 103.254159 92.043906)
-					(xy 103.29629 92.048119) (xy 103.334173 92.060759) (xy 103.367805 92.081825) (xy 103.397187 92.111317)
-					(xy 103.420952 92.147318) (xy 103.437927 92.187912) (xy 103.44721 92.227197) (xy 103.451295 92.269999)
-					(xy 103.451507 92.282873) (xy 103.451507 92.566) (xy 103.550376 92.566) (xy 103.550376 92.177165)
-					(xy 103.551798 92.137393) (xy 103.555662 92.095372) (xy 103.557801 92.077905) (xy 103.563645 92.038822)
-					(xy 103.570966 92.000293) (xy 103.578904 91.965748) (xy 103.484919 91.965748) (xy 103.473985 92.006825)
-					(xy 103.465802 92.045645) (xy 103.459936 92.086133) (xy 103.458541 92.101547) (xy 103.455806 92.101547)
-					(xy 103.438701 92.066285) (xy 103.418478 92.032433) (xy 103.401877 92.011275) (xy 103.371093 91.98463)
-					(xy 103.339351 91.967898) (xy 103.29905 91.956907) (xy 103.257296 91.9533) (xy 103.250837 91.953243)
-					(xy 103.211727 91.954351) (xy 103.169325 91.958088) (xy 103.137704 91.962622)
 				)
 			)
 		)
