@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CD4017BM96")(type "KiCad")(uri "${KIPRJMOD}/COMPONENTS/SYMBOLS/CD4017BM96.kicad_sym")(options "")(descr ""))
+  (lib (name "HT7750A")(type "KiCad")(uri "${KIPRJMOD}/COMPONENTS/SYMBOLS/HT7750A.kicad_sym")(options "")(descr ""))
+  (lib (name "HXSS12F44G4")(type "KiCad")(uri "${KIPRJMOD}/COMPONENTS/SYMBOLS/HXSS12F44G4.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM7555IBAZ-T")(type "KiCad")(uri "${KIPRJMOD}/COMPONENTS/SYMBOLS/ICM7555IBAZ-T.kicad_sym")(options "")(descr ""))
+)
