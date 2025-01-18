@@ -25,5 +25,5 @@ $`f = \frac{1}{1.4RC}`$
 <p align="justify">Thus, to obtain a period of about one second, R equals to 100 kΩ and C to 4.7 μF.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/de4c9fd7-8dc7-401c-b42b-5cd8ceac5797" alt = "ICM7555 Astable Operation" width="200" height="200"/>
+  <img src="https://github.com/user-attachments/assets/de4c9fd7-8dc7-401c-b42b-5cd8ceac5797" alt = "ICM7555 Astable Operation"/>
 </p>
