@@ -1,4 +1,4 @@
-# HeartLED PCB
+![image](https://github.com/user-attachments/assets/f2413344-77cd-4a37-a598-195ddf1feb59)# HeartLED PCB
 
 <p align="justify">A collection of <b>Valentine's Day-themed PCB designs</b> featuring LED animations in the shape of a heart. Perfect for pendants or keyrings!</p>
 
@@ -89,6 +89,14 @@ $`f=\frac{1}{RC}`$
   <img src="https://github.com/user-attachments/assets/95fb1a03-551f-4ee0-9991-b6b9fc9149e4" alt = "HT7750A Application Circuit For Fixed Output Voltage Option" width="680" height="300"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c4a911d8-f770-4f14-bff0-22f641577605" alt = "HT7750A Front" width="324" height="285"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8349025f-a099-4cc0-af7d-2c9add18c4cb" alt = "HT7750A Back" width="324" height="285"/>
+</p>
+
 ### BOM & Schematic Diagram
 
 | Component   | Value/Model        | Qty | LCSC #      | Notes                          |
@@ -104,7 +112,7 @@ $`f=\frac{1}{RC}`$
 | R3-R12      | 3.3 kΩ             | 10  | C25936      | LED current limit              |
 | U1          | ICM7555IBAZ-T      | 1   | C357816     | CMOS timer                     |
 | U2          | CD4017BM96         | 1   | C11349      | Decade counter                 |
-| U3          | TPS61222DCKR       | 1   | C116461     | Boost converter                |
+| U3          | HT7750A            | 1   | C25988      | Boost converter                |
 | U4          | HX SS12F44G4       | 1   | C5149844    | Power switch                   |
 | TP1-TP3     | 1.0 mm             | 3   | -           | Test points                    |
 
