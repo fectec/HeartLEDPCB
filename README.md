@@ -48,7 +48,7 @@ $`f=\frac{1}{RC}`$
   <img src="https://github.com/user-attachments/assets/f0dd6829-5bdd-4c14-a8f3-b3e7a6c8c89c" alt = "Typical Application Circuit For Fixed Output Voltage Option"/>
 </p>
 
-### BOM and Schematic Diagram
+### BOM & Schematic Diagram
 
 | Component   | Value/Model        | Qty | LCSC #      | Notes                          |
 |-------------|--------------------|-----|-------------|--------------------------------|
@@ -64,3 +64,7 @@ $`f=\frac{1}{RC}`$
 | U3          | TPS61222DCKR       | 1   | C116461     | Boost converter                |
 | U4          | HX SS12F44G4       | 1   | C5149844    | Power switch                   |
 | TP1-TP3     | 1.0 mm             | 3   | -           | Test points                    |
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/04ea9f6c-afd2-485e-83d1-f89d17c4b719" alt = "Main HeartLED PCB"/>
+</p>
