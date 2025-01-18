@@ -130,6 +130,18 @@ $`f=\frac{1}{RC}`$
 
 <p align="justify">Programming is accomplished via the Unified Program and Debug Interface (<i>UPDI</i>, a one-wire interface for external programming and debugging. The circuit incorporates a tactile button connected to a GPIO pin for user interaction.</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7033c1c2-a9ad-401c-9bbb-1c8c57f93b21" alt = "MCU PCB" width="400" height="300"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/216bcdd0-fc1f-49b6-9df2-2e00aa4bc732" alt = "MCU Front" width="324" height="285"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa88f846-20db-409a-aaf4-dc29a34dcc54" alt = "MCU Back" width="324" height="285"/>
+</p>
+
 ### BOM & Schematic Diagram
 
 | Component   | Value/Model        | Qty | LCSC #      | Notes                          |
