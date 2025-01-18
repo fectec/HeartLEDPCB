@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ab3604a-34fe-4e84-be5a-3aabe21696cb" alt = "Main PCB" width="324" height="285"/>
+  <img src="https://github.com/user-attachments/assets/6ab3604a-34fe-4e84-be5a-3aabe21696cb" alt = "Main PCB"/>
 </p>
 
 ### Components Overview
