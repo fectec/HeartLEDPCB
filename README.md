@@ -27,3 +27,19 @@ $`f=\frac{1}{RC}`$
 <p align="center">
   <img src="https://github.com/user-attachments/assets/de4c9fd7-8dc7-401c-b42b-5cd8ceac5797" alt = "ICM7555 Astable Operation"/>
 </p>
+
+#### CD4017B
+
+<p align="justify">The CD4017B is a decade counter with 10 decoded outputs. Each output remains high for the duration of one full clock cycle, sequentially cycling through the outputs with each clock pulse. It operates over a wide supply voltage range of 3V to 18V, making it compatible with various applications.</p>
+
+#### TPS6122
+
+<p align="justify">The TPS6122x family devices provide a power-supply solution for products powered by single-cell, two-cell, or three-cell alkaline, NiCd, or NiMH batteries, or a single-cell Li-Ion or Li-polymer battery. They offer up to 95% efficiency under typical operating conditions.</p>
+
+<p align="justify">In this design, the specific application of the device is a fixed output voltage supply of 5V at up to 60 mA. The TPS61222 DC/DC converter is suitable for systems powered by a total typical input voltage between 0.7 V and 5.5 V.</p>
+
+<p align="justify">In the fixed-voltage version, the output is set by an internal resistor divider. To ensure proper operation, a suitable inductor must be connected between pin VIN and pin L. Inductor values of 4.7 μH provide good performance across the full input and output voltage range. Using inductor values below 2.2 μH is not recommended.</p>
+
+<p align="justify">An input capacitor with a value of at least 10 μF is recommended to improve the transient behavior of the regulator and reduce EMI in the total power supply circuit. A ceramic capacitor placed as close as possible to the VIN and GND pins of the IC is advised.</p>
+
+<p align="justify">For the output capacitor (C2), small ceramic capacitors are recommended, placed as close as possible to the VOUT and GND pins of the IC. A minimum capacitance value of 4.7 μF should be used; 10 μF is preferred.</p>
