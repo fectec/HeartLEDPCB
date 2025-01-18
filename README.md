@@ -66,5 +66,5 @@ $`f=\frac{1}{RC}`$
 | TP1-TP3     | 1.0 mm             | 3   | -           | Test points                    |
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/779be114-5e8d-4a7e-8228-3c3a0bf40168" alt = "Main HeartLED PCB"/>
+  <img src="https://github.com/user-attachments/assets/d9e5e888-bb15-48da-88fb-5081e12e24d7" alt = "Main HeartLED PCB"/>
 </p>
