@@ -83,7 +83,7 @@ $`f=\frac{1}{RC}`$
 
 ## HT7750A Branch
 
-<p align="justify">In this branch, the TPS61222DCKR converter is replaced by the <b>HT7750A</b>. The HT77XXA series is a family of step-up DC/DC converters known for their high efficiency and low ripple. These converters feature an extremely low start-up voltage and high output voltage accuracy. They require only three external components to provide a fixed output voltage of 2.7V, 3.0V, 3.3V, or <i>5.0V</i>.</p>
+<p align="justify">In this branch, the TPS61222DCKR converter is replaced by the <b>HT7750A</b>. The HT77XXA series is a family of step-up DC/DC converters known for their high efficiency and low ripple. These converters feature an extremely low start-up voltage and high output voltage accuracy. They require only three external components to provide a fixed output voltage of 2.7 V, 3.0 V, 3.3 V, or <i>5.0 V</i>.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/95fb1a03-551f-4ee0-9991-b6b9fc9149e4" alt = "HT7750A Application Circuit For Fixed Output Voltage Option" width="680" height="300"/>
@@ -147,11 +147,11 @@ $`f=\frac{1}{RC}`$
 | Component   | Value/Model        | Qty | LCSC #      | Notes                          |
 |-------------|--------------------|-----|-------------|--------------------------------|
 | BT1         | CR2032-BS-6-1      | 1   | C70377      | CR2032 holder                  |
-| C1          | 100nF              | 2   | C301918     | MCU decoupling capacitors      |
-| C2          | 100nF              | 2   | C301918     | Button debounce capacitor      |
+| C1          | 100 nF             | 2   | C301918     | MCU decoupling capacitors      |
+| C2          | 100 nF             | 2   | C301918     | Button debounce capacitor      |
 | D1          | LED (Blue)         | 1   | C7496819    | Status LED                     |
 | D2-D10      | LED (Red)          | 9   | C7496820    | Animation LEDs                 |
-| J1          | 1x03 2.54mm        | 1   | -           | UPDI programming header        |
+| J1          | 1x03 2.54 mm       | 1   | -           | UPDI programming header        |
 | R1-R11      | 1 kΩ               | 11  | C25543      | LED current limit              |
 | SW1         | TS-1187A-B-A-B     | 1   | C318884     | Tactile switch                 |
 | U1          | HX SS12F44G4       | 1   | C5149844    | Power switch                   |
@@ -160,4 +160,27 @@ $`f=\frac{1}{RC}`$
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3a8101af-63fe-4fc1-8729-ac897de6248b" alt = "MCU HeartLED PCB Schematic Diagram"/>
+</p>
+
+## Simple NE555 Branch
+
+<p align="justify">Finally, this branch replaces the ICM7555 timer IC with a conventional <b>NE555</b>, offering a cost-effective alternative that requires only one SMD component - the IC itself. This design imitates a popular DIY kit, where the NE555 generates a <i>1 Hz signal</i> at pin 3, alternating between high and low levels. When pin 3 is low, the upper row of LEDs illuminates, and when high, the bottom row lights up instead, creating an appealing visual effect.</p>
+
+<p align="justify">While the circuit can operate with a CR2032 3V battery, one LED row will appear dimmer due to the NE555's minimum voltage requirements. For optimal brightness across both rows, a 5V power supply connector can be soldered to the board as an alternative power source.</p>
+
+### BOM & Schematic Diagram
+
+| Component   | Value/Model                    | Qty | Notes                          |
+|-------------|--------------------------------|-----|--------------------------------|
+| U1          | NE555DR                        | 1   | RC Timer                       |
+| U2          | 1066                           | 1   | CR2032 holder                  |
+| SW1         | SS12D00G3                      | 1   | Power switch                   |
+| D1-D10      | LED 3.00 mm                    | 10  | LEDs                           |
+| R1-R10      | 1 kΩ 6.3 x 2.5 x 7.62 mm       | 10  | LED current limit              |
+| R11-R12     | 10 kΩ 6.3 x 2.5 x 7.62 mm      | 2   | Timer RC network               |
+| C1          | 47 µF 5.00 x 7.00 x 2.00 mm    | 1   | NE555 capacitor                |
+| J1          | 1x02 2.54 mm                   | 1   | Power supply header            |
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/14caecd8-7e32-412a-b838-e0dd9af7d776" alt = "NE555 HeartLED PCB Schematic Diagram"/>
 </p>
