@@ -90,6 +90,10 @@ $`f=\frac{1}{RC}`$
 </p>
 
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/5d998e11-d37f-417b-856e-1fd25c7e912b" alt = "HT7750A PCB" width="400" height="300"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/c4a911d8-f770-4f14-bff0-22f641577605" alt = "HT7750A Front" width="324" height="285"/>
 </p>
 
