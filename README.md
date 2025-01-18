@@ -47,3 +47,20 @@ $`f=\frac{1}{RC}`$
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f0dd6829-5bdd-4c14-a8f3-b3e7a6c8c89c" alt = "Typical Application Circuit For Fixed Output Voltage Option"/>
 </p>
+
+### BOM and Schematic Diagram
+
+| Component   | Value/Model        | Qty | LCSC #      | Notes                          |
+|-------------|--------------------|-----|-------------|--------------------------------|
+| BT1         | Keystone 1060      | 1   | C5370859    | CR2032 holder                  |
+| C1          | 4.7 µF             | 1   | C1705       | ICM7555 capacitor              | 
+| C2, C3      | 10 µF              | 2   | C1691       | TPS61222 Input/output caps     |
+| L1          | 4.7 µH             | 1   | C576538     | LQH3NPN series                 |
+| R1          | 100 kΩ             | 1   | C15458      | Timer RC network               |
+| R2          | 10 kΩ              | 1   | C25531      | Timer RC network               |
+| R3-R12      | 3.3 kΩ             | 10  | C25936      | LED current limit              |
+| U1          | ICM7555IBAZ-T      | 1   | C357816     | CMOS timer                     |
+| U2          | CD4017BM96         | 1   | C11349      | Decade counter                 |
+| U3          | TPS61222DCKR       | 1   | C116461     | Boost converter                |
+| U4          | HX SS12F44G4       | 1   | C5149844    | Power switch                   |
+| TP1-TP3     | 1.0 mm             | 3   | -           | Test points                    |
