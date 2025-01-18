@@ -8,7 +8,7 @@
 
 ### Components Overview
 
-#### ICM7555
+#### ICM7555IBAZ-T
 
 <p align="justify">The ICM7555 is a CMOS RC timer that provides significantly improved performance over the standard SE/NE 555/556 and 355 timers. It is a direct replacement for these devices in most applications. Enhanced features include low supply current (60 μA), a wide operating supply voltage range (2V to 18V), higher frequency performance, and no requirement to decouple the Control Voltage pin for stable operation.</p> 
 
@@ -28,11 +28,11 @@ $`f=\frac{1}{RC}`$
   <img src="https://github.com/user-attachments/assets/de4c9fd7-8dc7-401c-b42b-5cd8ceac5797" alt = "ICM7555 Astable Operation"/>
 </p>
 
-#### CD4017B
+#### CD4017BM96
 
 <p align="justify">The CD4017B is a decade counter with 10 decoded outputs. Each output remains high for the duration of one full clock cycle, sequentially cycling through the outputs with each clock pulse. It operates over a wide supply voltage range of 3V to 18V, making it compatible with various applications.</p>
 
-#### TPS6122
+#### TPS61222DCKR
 
 <p align="justify">The TPS6122x family devices provide a power-supply solution for products powered by single-cell, two-cell, or three-cell alkaline, NiCd, or NiMH batteries, or a single-cell Li-Ion or Li-polymer battery. They offer up to 95% efficiency under typical operating conditions.</p>
 
@@ -43,3 +43,7 @@ $`f=\frac{1}{RC}`$
 <p align="justify">An input capacitor with a value of at least 10 μF is recommended to improve the transient behavior of the regulator and reduce EMI in the total power supply circuit. A ceramic capacitor placed as close as possible to the VIN and GND pins of the IC is advised.</p>
 
 <p align="justify">For the output capacitor (C2), small ceramic capacitors are recommended, placed as close as possible to the VOUT and GND pins of the IC. A minimum capacitance value of 4.7 μF should be used; 10 μF is preferred.</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f0dd6829-5bdd-4c14-a8f3-b3e7a6c8c89c" alt = "Typical Application Circuit For Fixed Output Voltage Option"/>
+</p>
