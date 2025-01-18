@@ -18,7 +18,7 @@
 
 <div align="center">
 	
-$`\frac{1}{RC}`$
+$`f=\frac{1}{RC}`$
 
 </div>
 
