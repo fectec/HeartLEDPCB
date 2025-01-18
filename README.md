@@ -48,7 +48,7 @@ $`f=\frac{1}{RC}`$
 
 <p align="justify">The TPS6122x family devices provide a power-supply solution for products powered by single-cell, two-cell, or three-cell alkaline, NiCd, or NiMH batteries, or a single-cell Li-Ion or Li-polymer battery. They offer up to 95% efficiency under typical operating conditions.</p>
 
-<p align="justify">In this design, the specific application of the device is a fixed output voltage supply of <i>5V at up to 60 mA</i>. The TPS61222 DC/DC converter is suitable for systems powered by a total typical input voltage between 0.7 V and 5.5 V.</p>
+<p align="justify">In this design, the specific application of the device is a fixed output voltage supply of <i>5 V at up to 60 mA</i>. The TPS61222 DC/DC converter is suitable for systems powered by a total typical input voltage between 0.7 V and 5.5 V.</p>
 
 <p align="justify">In the fixed-voltage version, the output is set by an internal resistor divider. To ensure proper operation, a suitable inductor must be connected between pin VIN and pin L. Inductor values of <i>4.7 μH</i> provide good performance across the full input and output voltage range. Using inductor values below 2.2 μH is not recommended.</p>
 
@@ -57,7 +57,7 @@ $`f=\frac{1}{RC}`$
 <p align="justify">For the output capacitor (C2), small ceramic capacitors are recommended, placed as close as possible to the VOUT and GND pins of the IC. A minimum capacitance value of 4.7 μF should be used; <i>10 μF</i> is preferred.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f0dd6829-5bdd-4c14-a8f3-b3e7a6c8c89c" alt = "Typical Application Circuit For Fixed Output Voltage Option"/>
+  <img src="https://github.com/user-attachments/assets/f0dd6829-5bdd-4c14-a8f3-b3e7a6c8c89c" alt = "TPS61222DCKR Application Circuit For Fixed Output Voltage Option"/>
 </p>
 
 ### BOM & Schematic Diagram
@@ -79,4 +79,12 @@ $`f=\frac{1}{RC}`$
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d9e5e888-bb15-48da-88fb-5081e12e24d7" alt = "Main HeartLED PCB"/>
+</p>
+
+## HT7750A Branch
+
+<p align="justify">In this branch, the TPS61222DCKR converter is replaced by the <b>HT7750A</b>. The HT77XXA series is a family of step-up DC/DC converters known for their high efficiency and low ripple. These converters feature an extremely low start-up voltage and high output voltage accuracy. They require only three external components to provide a fixed output voltage of 2.7V, 3.0V, 3.3V, or 5.0V. The HT7750A in this design supplies a stable 5V to power the circuit.</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/95fb1a03-551f-4ee0-9991-b6b9fc9149e4" alt = "HT7750A Application Circuit For Fixed Output Voltage Option"/>
 </p>
