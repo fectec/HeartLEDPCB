@@ -78,13 +78,36 @@ $`f=\frac{1}{RC}`$
 | TP1-TP3     | 1.0 mm             | 3   | -           | Test points                    |
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d9e5e888-bb15-48da-88fb-5081e12e24d7" alt = "Main HeartLED PCB"/>
+  <img src="https://github.com/user-attachments/assets/d9e5e888-bb15-48da-88fb-5081e12e24d7" alt = "Main HeartLED PCB Schematic Diagram"/>
 </p>
 
 ## HT7750A Branch
 
-<p align="justify">In this branch, the TPS61222DCKR converter is replaced by the <b>HT7750A</b>. The HT77XXA series is a family of step-up DC/DC converters known for their high efficiency and low ripple. These converters feature an extremely low start-up voltage and high output voltage accuracy. They require only three external components to provide a fixed output voltage of 2.7V, 3.0V, 3.3V, or 5.0V. The HT7750A in this design supplies a stable 5V to power the circuit.</p>
+<p align="justify">In this branch, the TPS61222DCKR converter is replaced by the <b>HT7750A</b>. The HT77XXA series is a family of step-up DC/DC converters known for their high efficiency and low ripple. These converters feature an extremely low start-up voltage and high output voltage accuracy. They require only three external components to provide a fixed output voltage of 2.7V, 3.0V, 3.3V, or <i>5.0V</i>.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/95fb1a03-551f-4ee0-9991-b6b9fc9149e4" alt = "HT7750A Application Circuit For Fixed Output Voltage Option" width="700" height="320"/>
+</p>
+
+### BOM & Schematic Diagram
+
+| Component   | Value/Model        | Qty | LCSC #      | Notes                          |
+|-------------|--------------------|-----|-------------|--------------------------------|
+| BT1         | Keystone 1060      | 1   | C5370859    | CR2032 holder                  |
+| C1          | 4.7 µF             | 1   | C1705       | ICM7555 capacitor              | 
+| C2          | 47 µF (Tantalum)   | 1   | C7190       | HT7750A input capacitor        |
+| C3          | 22 µF (Tantalum)   | 1   | C7183       | HT7750A output capacitor       |
+| L1          | 47-100 µH          | 1   | C1034       | HT7750A inductor               |
+| S1          | 1N5817             | 1   | C727113     | HT7750A schottky diode         |
+| R1          | 100 kΩ             | 1   | C15458      | Timer RC network               |
+| R2          | 10 kΩ              | 1   | C25531      | Timer RC network               |
+| R3-R12      | 3.3 kΩ             | 10  | C25936      | LED current limit              |
+| U1          | ICM7555IBAZ-T      | 1   | C357816     | CMOS timer                     |
+| U2          | CD4017BM96         | 1   | C11349      | Decade counter                 |
+| U3          | TPS61222DCKR       | 1   | C116461     | Boost converter                |
+| U4          | HX SS12F44G4       | 1   | C5149844    | Power switch                   |
+| TP1-TP3     | 1.0 mm             | 3   | -           | Test points                    |
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/85330887-3bbe-4a60-8581-5100caf57b6e" alt = "HT7750A HeartLED PCB Schematic Diagram"/>
 </p>
