@@ -4,7 +4,7 @@
 
 ## Main Branch
 
-<p align="justify">The main branch features a design built around the <b>ICM7555</b> timer IC, configured in astable operation mode. The timer output drives a <b>CD4017B</b> decade counter, which sequences through LEDs to create an animated pattern. Power is supplied by a <b>CR2032</b> battery through a <b>TPS6122</b> boost converter.</p>
+<p align="justify">The main branch features a design built around the <b>ICM7555</b> timer IC, configured in astable operation mode. The timer output drives a <b>CD4017B</b> decade counter, which sequences through LEDs to create an animated pattern. Power is supplied by a <b>CR2032</b> 3 V battery through a <b>TPS6122</b> boost converter.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7033c1c2-a9ad-401c-9bbb-1c8c57f93b21" alt = "Main PCB" width="400" height="300"/>
@@ -169,7 +169,7 @@ $`f=\frac{1}{RC}`$
 <p align="justify">While the circuit can operate with a CR2032 3V battery, one LED row will appear dimmer due to the NE555's minimum voltage requirements. For optimal brightness across both rows, a 5V power supply connector can be soldered to the board as an alternative power source.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ac20ff40-7e81-4c68-b103-9fd3fb49b721" alt = "NE555 PCB" width="400" height="300"/>
+  <img src="https://github.com/user-attachments/assets/ac20ff40-7e81-4c68-b103-9fd3fb49b721" alt = "NE555 PCB" width="350" height="300"/>
 </p>
 
 <p align="center">
