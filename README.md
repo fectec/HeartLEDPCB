@@ -128,4 +128,10 @@ $`f=\frac{1}{RC}`$
 
 <p align="justify">This branch replaces the timer and decade counter with an <b>ATtiny816</b> microcontroller. The ATtiny816 is a member of the tinyAVR® 1-series family featuring advanced analog features and core independent peripherals. This design allows for more sophisticated LED control and animations through programmable patterns.</p>
 
-<p align="justify">Programming is accomplished via the Unified Program and Debug Interface (UPDI), a one-wire interface for external programming and debugging.</p>
+<p align="justify">Programming is accomplished via the Unified Program and Debug Interface (<i>UPDI</i>, a one-wire interface for external programming and debugging.</p>
+
+### BOM & Schematic Diagram
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a8101af-63fe-4fc1-8729-ac897de6248b" alt = "MCU HeartLED PCB Schematic Diagram"/>
+</p>
