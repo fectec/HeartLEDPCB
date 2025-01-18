@@ -7,7 +7,7 @@
 <p align="justify">The main branch features a design built around the ICM7555 timer IC, configured in astable operation mode. The timer output drives a CD4017B decade counter, which sequences through LEDs to create an animated pattern. Power is supplied by a CR2032 battery through a TPS6122 boost converter.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7033c1c2-a9ad-401c-9bbb-1c8c57f93b21" alt = "Main PCB" width="324" height="285"/>
+  <img src="https://github.com/user-attachments/assets/7033c1c2-a9ad-401c-9bbb-1c8c57f93b21" alt = "Main PCB" width="400" height="380"/>
 </p>
 
 <p align="center">
