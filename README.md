@@ -124,13 +124,27 @@ $`f=\frac{1}{RC}`$
   <img src="https://github.com/user-attachments/assets/85330887-3bbe-4a60-8581-5100caf57b6e" alt = "HT7750A HeartLED PCB Schematic Diagram"/>
 </p>
 
-## MCU
+## MCU Branch
 
 <p align="justify">This branch replaces the timer and decade counter with an <b>ATtiny816</b> microcontroller. The ATtiny816 is a member of the tinyAVR® 1-series family featuring advanced analog features and core independent peripherals. This design allows for more sophisticated LED control and animations through programmable patterns.</p>
 
-<p align="justify">Programming is accomplished via the Unified Program and Debug Interface (<i>UPDI</i>, a one-wire interface for external programming and debugging.</p>
+<p align="justify">Programming is accomplished via the Unified Program and Debug Interface (<i>UPDI</i>, a one-wire interface for external programming and debugging. The circuit incorporates a tactile button connected to a GPIO pin for user interaction.</p>
 
 ### BOM & Schematic Diagram
+
+| Component   | Value/Model        | Qty | LCSC #      | Notes                          |
+|-------------|--------------------|-----|-------------|--------------------------------|
+| BT1         | CR2032-BS-6-1      | 1   | C70377      | CR2032 holder                  |
+| C1          | 100nF              | 2   | C301918     | MCU decoupling capacitors      |
+| C2          | 100nF              | 2   | C301918     | Button debounce capacitor      |
+| D1          | LED (Blue)         | 1   | C7496819    | Status LED                     |
+| D2-D10      | LED (Red)          | 9   | C7496820    | Animation LEDs                 |
+| J1          | 1x03 2.54mm        | 1   | -           | UPDI programming header        |
+| R1-R11      | 1 kΩ               | 11  | C25543      | LED current limit              |
+| SW1         | TS-1187A-B-A-B     | 1   | C318884     | Tactile switch                 |
+| U1          | HX SS12F44G4       | 1   | C5149844    | Power switch                   |
+| U2          | ATTINY816-MN       | 1   | C617908     | Main MCU                       |
+| TP1         | 1.5 mm             | 1   | -           | Test point                     |
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3a8101af-63fe-4fc1-8729-ac897de6248b" alt = "MCU HeartLED PCB Schematic Diagram"/>
