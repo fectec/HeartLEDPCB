@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f2413344-77cd-4a37-a598-195ddf1feb59)# HeartLED PCB
+# HeartLED PCB
 
 <p align="justify">A collection of <b>Valentine's Day-themed PCB designs</b> featuring LED animations in the shape of a heart. Perfect for pendants or keyrings!</p>
 
