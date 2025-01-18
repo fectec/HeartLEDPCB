@@ -17,7 +17,9 @@
 <p align="justify">The frequency of the astable operation is determined by the formula:</p> 
 
 <div align="center">
-$`f = \frac{1}{1.4RC}`$
+	
+$`\frac{-0.2852 z^{-1}}{1 - 1.776 z^{-1} + 0.7759 z^{-2}}`$
+
 </div>
 
 <p align="justify">To achieve a period of approximately one second, R was set to 100 kΩ and C to 4.7 μF.</p> 
