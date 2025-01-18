@@ -169,7 +169,7 @@ $`f=\frac{1}{RC}`$
 <p align="justify">While the circuit can operate with a CR2032 3V battery, one LED row will appear dimmer due to the NE555's minimum voltage requirements. For optimal brightness across both rows, a 5V power supply connector can be soldered to the board as an alternative power source.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ac20ff40-7e81-4c68-b103-9fd3fb49b721" alt = "NE555 PCB" width="320" height="310"/>
+  <img src="https://github.com/user-attachments/assets/ac20ff40-7e81-4c68-b103-9fd3fb49b721" alt = "NE555 PCB" width="340" height="330"/>
 </p>
 
 <p align="center">
