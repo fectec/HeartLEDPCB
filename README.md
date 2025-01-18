@@ -86,5 +86,5 @@ $`f=\frac{1}{RC}`$
 <p align="justify">In this branch, the TPS61222DCKR converter is replaced by the <b>HT7750A</b>. The HT77XXA series is a family of step-up DC/DC converters known for their high efficiency and low ripple. These converters feature an extremely low start-up voltage and high output voltage accuracy. They require only three external components to provide a fixed output voltage of 2.7V, 3.0V, 3.3V, or 5.0V. The HT7750A in this design supplies a stable 5V to power the circuit.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95fb1a03-551f-4ee0-9991-b6b9fc9149e4" alt = "HT7750A Application Circuit For Fixed Output Voltage Option" width="700" height="370"/>
+  <img src="https://github.com/user-attachments/assets/95fb1a03-551f-4ee0-9991-b6b9fc9149e4" alt = "HT7750A Application Circuit For Fixed Output Voltage Option" width="700" height="320"/>
 </p>
