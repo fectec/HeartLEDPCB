@@ -128,7 +128,7 @@ $`f=\frac{1}{RC}`$
 
 <p align="justify">This branch replaces the timer and decade counter with an <b>ATtiny816</b> microcontroller. The ATtiny816 is a member of the tinyAVR® 1-series family featuring advanced analog features and core independent peripherals. This design allows for more sophisticated LED control and animations through programmable patterns.</p>
 
-<p align="justify">Programming is accomplished via the Unified Program and Debug Interface (<i>UPDI</i>, a one-wire interface for external programming and debugging. The circuit incorporates a tactile button connected to a GPIO pin for user interaction.</p>
+<p align="justify">Programming is accomplished via the Unified Program and Debug Interface (<i>UPDI</i>), a one-wire interface for external programming and debugging. The circuit incorporates a tactile button connected to a GPIO pin for user interaction.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4d2a6d3e-4b0b-4cea-951a-3f0ca250b6cf" alt = "MCU PCB" width="330" height="340"/>
