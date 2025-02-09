@@ -181,7 +181,7 @@ $`f=\frac{1}{RC}`$
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ecec4b4-3950-4c9c-86fb-e18cd91f8729" alt = "NE555 PCB IRL" width="324" height="285"/>
+  <img src="https://github.com/user-attachments/assets/6ecec4b4-3950-4c9c-86fb-e18cd91f8729" alt = "NE555 PCB IRL" width="810" height="713"/>
 </p>
 
 ### BOM & Schematic Diagram
