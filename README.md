@@ -1,4 +1,4 @@
-# HeartLED PCB
+# Heart LED PCB
 
 <p align="justify">A collection of <b>Valentine's Day-themed PCB designs</b> featuring LED animations in the shape of a heart. Perfect for pendants or keyrings!</p>
 
